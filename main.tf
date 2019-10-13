@@ -1,6 +1,6 @@
 
 resource "azurerm_resource_group" "test" {
-  name     = "shan"
+  name     = "demo"
   location = "West US"
 
   tags = {
@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "test" {
   }
 }
 resource "azurerm_storage_account" "test" {
-  name                     = "storageaccountnamedemo12"
+  name                     = "demoforusers"
   resource_group_name      = azurerm_resource_group.test.name
   location                 = azurerm_resource_group.test.location
   account_tier             = "Standard"
