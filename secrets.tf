@@ -2,7 +2,7 @@ variable "subscription_id" {
   default = ""
 }
 variable "clieant_id" {
-  
+  default = ""
 }
 
 
