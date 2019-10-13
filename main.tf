@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "test" {
-  name     = "testResourceGroup1"
+  name     = "${var.name}"
   location = "West US"
 
   tags = {
