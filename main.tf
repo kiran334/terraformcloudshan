@@ -1,4 +1,4 @@
-variables "name" {default = ""}
+variable "name" {default = ""}
 
 resource "azurerm_resource_group" "test" {
   name     = "${var.name}"
