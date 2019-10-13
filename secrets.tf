@@ -8,7 +8,7 @@ variable "client_id" {
 variable "client_secret" {
   default = ""
 }
-variable "tenant_id " {
+variable "tenant_id" {
   default = ""
 }
 
