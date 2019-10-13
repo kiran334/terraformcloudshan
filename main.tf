@@ -1,3 +1,5 @@
+variables "name" {default = ""}
+
 resource "azurerm_resource_group" "test" {
   name     = "${var.name}"
   location = "West US"
