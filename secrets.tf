@@ -4,8 +4,8 @@ provider "azurerm" {
   # Whilst version is optional, we /strongly recommend/ using it to pin the version of the Provider being used
   version = "=1.34.0"
 
-  subscription_id = "17d6cd02-08ca-45df-986f-d1925845962f"
-  client_id       = "22026969-8f12-4da3-ad4d-5ec8fd9d3393"
-  client_secret   = "OJdZehgWfp_dK3xjdyP3o5Vk?@Hq9yH["
-  tenant_id       = "e379ae80-8960-4d12-a7ac-228c4044b133"
+  subscription_id = "ef16b033-ec3e-4659-b1b7-1532f58b43e3"
+  client_id       = "dcc35921-6a69-4b62-bd4f-a68324a88844"
+  client_secret   = "ape8Q~XXYYbo~-RBnc31hhGD2e.V64tVM81BJaJR"
+  tenant_id       = "20f3b949-2903-4d24-9d01-ad8df676e397"
 }

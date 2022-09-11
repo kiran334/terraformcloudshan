@@ -1,18 +1,18 @@
 variable "name"{
   default = ""
   }
-resource "azurerm_resource_group" "test" {
+resource "azurerm_resource_group" "saikiran-dev-rg" {
   name     = "${var.name}"
-  location = "West US"
+  location = "East US2"
 
   tags = {
-    environment = "Production"
+    environment = "Developmt"
   }
 }
-resource "azurerm_storage_account" "test" {
+resource "azurerm_storage_account" "saikiran-dev-stacct" {
   name                     = "demoforusers"
-  resource_group_name      = azurerm_resource_group.test.name
-  location                 = azurerm_resource_group.test.location
+  resource_group_name      = azurerm_resource_group.saikiran-dev-rg.name
+  location                 = azurerm_resource_group.saikiran-dev-rg.location
   account_tier             = "Standard"
   account_replication_type = "GRS"
 
