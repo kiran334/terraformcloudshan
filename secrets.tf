@@ -1,8 +1,12 @@
 
-
-provider "azurerm" {
-  # Whilst version is optional, we /strongly recommend/ using it to pin the version of the Provider being used
-  version = "=3.0.0"
+terraform {
+  required_providers {
+    azurerm = {
+      source  = "hashicorp/azurerm"
+      version = "=3.0.0"
+    }
+  }
+}
 
   subscription_id = "ef16b033-ec3e-4659-b1b7-1532f58b43e3"
   client_id       = "dcc35921-6a69-4b62-bd4f-a68324a88844"
